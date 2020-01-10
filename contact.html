@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SAN Airport Shuttle | Contact</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="animated fadeIn">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col col-lg-6 col-md-6 col-sm-6">
+            <a href="/">
+              <img src="assets/san-logo.png" alt="SAN Logo" height="60" />
+            </a>
+          </div>
+          <div class="col col-lg-6 col-md-6 col-sm-6 text-right">
+            <button type="button" class="btn btn-red">Order Ride</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="animated fadeIn" id="contactBanner">
+      <div class="ribbon">
+        <h2>Contact Us</h2>
+      </div>
+    </main>
+    <section id="contactForm">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <form action="#">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="text" class="form-control" id="phone" />
+                <p>Phone number, including country code and area code</p>
+              </div>
+              <div class="form-group">
+                <label for="category">Category:</label>
+                  <select
+                    class="select form-control"
+                    id="category"
+                    name="category"
+                    ><option value="0">Choose</option
+                    ><option value="10">General question</option
+                    ><option value="11">Driver Support &amp; Help</option
+                    ><option value="12">Passenger Support &amp; Help</option
+                    ><option value="13">Partnerships</option
+                    ><option value="14">Public Relations / Media</option
+                    ><option value="15">Investor</option></select
+                  >
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject:</label>
+                <input type="text" class="form-control" id="subject" required />
+              </div>
+              <div class="form-group">
+                <label for="order">Order No:</label>
+                <input type="text" class="form-control" id="order" />
+                <p>If you have an issue with an existing order, please enter the order number</p>
+              </div>
+              <div class="form-group">
+                <label for="name">Messages:</label>
+                <textarea class="textarea form-control" cols="60" id="id_message" name="message" rows="10" required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="captcha">Captcha:</label>
+                <p>What is 10 x 4?</p>
+                <input type="text" class="form-control" id="captcha" required />
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="/contact.html">Contact</a> |
+            <a href="/terms.html">Terms and Conditions</a> |
+            <a href="/privacy.html">Privacy Policy</a>
+            <p class="copyright-space">
+              &nbsp;2020 &copy; San Diego Direct Transportation Services LLC
+            </p>
+          </div>
+
+          <!-- Social Links -->
+          <div class="col-md-6 text-right">
+            <ul class="footer-socials list-inline">
+              <li>
+                <a
+                  href="#"
+                  class="tooltips"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title=""
+                  data-original-title="Facebook"
+                >
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="tooltips"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title=""
+                  data-original-title="Twitter"
+                >
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="tooltips"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title=""
+                  data-original-title="Linkedin"
+                >
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="tooltips"
+                  data-toggle="tooltip"
+                  data-placement="top"
+                  title=""
+                  data-original-title="Pinterest"
+                >
+                  <i class="fa fa-pinterest"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- End Social Links -->
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

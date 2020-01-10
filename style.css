@@ -1,0 +1,226 @@
+@import 'contact.css';
+@import 'terms.css';
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+
+header {
+  background-color: #1b1b1b;
+  padding: 10px 0;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.btn-red {
+  background-color: #dc443e;
+  color: #fff;
+  border-radius: 0;
+}
+
+.btn-red:hover {
+  background-color: #fff;
+  border: 1px solid #dc443e;
+  color: #dc443e;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-red,
+a,
+.btn-link {
+  color: #dc443e;
+}
+
+.text-red:hover,
+a:hover,
+.btn-link:hover {
+  color: #dc443e;
+}
+
+hr {
+  background-color: #dc443e;
+  width: 25%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+main {
+  position: relative;
+}
+
+main h2 {
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+main .paragraphs {
+  padding: 20px 0 45px;
+}
+main .paragraphs p {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+main .text-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 1000;
+  text-align: left;
+}
+
+#downloadApp {
+  padding: 60px 0;
+}
+
+#downloadApp .content h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+#downloadApp .content p {
+  margin: 0;
+  font-size: 21px;
+}
+
+#downloadApp .stores {
+  margin-top: 30px;
+}
+
+#downloadApp .stores img:first-child {
+  margin-right: 10px;
+}
+
+#redBanner {
+  background-color: #dc443e;
+  color: #fff;
+  padding: 40px 20vw;
+}
+
+#whySAN {
+  padding: 60px 0;
+}
+
+#whySAN .row h2 {
+  margin: 20px 0;
+}
+
+#howItWorks {
+  background-color: #1b1b1b;
+  color: #fff;
+  padding: 60px 0;
+}
+
+#availableChoices {
+  padding: 60px 0;
+}
+
+#availableChoices .caption p {
+  margin-top: 12px;
+  min-height: 80px;
+}
+
+#availableChoices .table-responsive {
+  text-align: left;
+}
+
+#availableChoices img {
+  transition: transform 0.2s;
+}
+
+#availableChoices .col-lg-4:hover img {
+  transform: scale(1.2);
+}
+
+#paxFAQ {
+  padding: 60px 0;
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+#paxFAQ .card-header {
+  padding: 15px;
+  transition: 0.3s;
+}
+
+#paxFAQ .card-header:hover,
+div[aria-expanded='true'] {
+  cursor: pointer;
+  background-color: #dc443e;
+  color: #fff;
+}
+
+#paxFAQ .mb-0 {
+  font-size: 16px;
+}
+
+footer {
+  background-color: #1b1b1b;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer p,
+footer .row a {
+  font-size: 12px;
+}
+
+.footer-v1 .footer-socials {
+  margin-top: 12px;
+  text-align: right;
+}
+
+footer .footer-socials li a {
+  color: #777;
+  font-size: 16px;
+}
+
+footer .footer-socials li a:hover {
+  color: #dc443e;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+@media (max-width: 500px) {
+  main img {
+    height: 90vh;
+    width: auto;
+  }
+
+  #downloadApp .text-right {
+    text-align: center !important;
+  }
+
+  #downloadApp .align-items-center {
+    text-align: center !important;
+    margin-top: 15px;
+  }
+
+  #downloadApp .stores img {
+    width: 45%;
+  }
+
+  #redBanner {
+    padding: 40px 4vw;
+  }
+
+  footer,
+  .footer-socials {
+    text-align: center;
+  }
+}
