@@ -129,7 +129,7 @@ main .text-box {
   padding: 60px 0;
 }
 
-#downloadApp img {
+#downloadApp .mobile-phone {
   padding-right: 40px;
 }
 
@@ -249,7 +249,7 @@ footer .footer-socials li a:hover {
     width: auto;
   }
 
-  #downloadApp img {
+  #downloadApp .mobile-phone {
     padding-right: 0;
   }
 
