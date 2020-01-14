@@ -238,6 +238,10 @@ footer .footer-socials li a:hover {
   color: #dc443e;
 }
 
+footer .copyright-space {
+  margin-bottom: 0;
+}
+
 .list-inline > li {
   display: inline-block;
   padding: 0 15px;
@@ -272,6 +276,7 @@ footer .footer-socials li a:hover {
 
   footer,
   .footer-socials {
+    margin-top: 15px;
     text-align: center;
   }
 }
